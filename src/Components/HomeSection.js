@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function HomeSection() {
   return (
     <section id="home" className="relative">
-      <div className="container">
+      <div className="container p-4">
         {/* blob 1 */}
         <div className="w-64 h-64 bg-green-700 rounded-full blur-3xl -z-10 opacity-40 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  ">
 

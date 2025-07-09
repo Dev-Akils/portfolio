@@ -75,14 +75,12 @@ function SelfProjects() {
                     >
                         {/* Image */}
                         <div className="relative w-full h-32 bg-[#eeeee4] rounded-md overflow-hidden group">
-                            {/* Image (default) */}
                             <img
                                 src={item.image}
                                 alt={item.title}
                                 className="w-full h-full object-cover absolute inset-0 duration-300 group-hover:opacity-0"
                             />
 
-                            {/* Video (shows on hover) */}
                             <video
                                 src={item.video}
                                 className="w-full h-full object-cover absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
@@ -93,24 +91,27 @@ function SelfProjects() {
                             ></video>
                         </div>
 
-
-                        <p className="italic mt-5">Title: {item.title}</p>
-                        <h5 className="font-medium mt-2">Description: {item.description}</h5>
-                        <p>
-                            View:{" "}
-                            <a
-                                href={item.LinktoView}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-blue-500 underline"
-                            >
-                                {item.LinktoView}
-                            </a>
-                        </p>
+                        {/* Text Content with Left Alignment on Mobile */}
+                        <div className="text-start">
+                            <p className="italic mt-5">Title: {item.title}</p>
+                            <h5 className="font-medium mt-2">Description: {item.description}</h5>
+                            <p>
+                                View:{" "}
+                                <a
+                                    href={item.LinktoView}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-blue-500 underline break-all"
+                                >
+                                    {item.LinktoView}
+                                </a>
+                            </p>
+                        </div>
                     </div>
                 ))}
             </div>
         </section>
+
     );
 }
 

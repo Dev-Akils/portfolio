@@ -4,12 +4,12 @@ import plant1 from '../assets/about1.png';
 import plant2 from '../assets/about2.png'
 function AboutUs() {
   return (
-    <section id="about" className='relative overflow-hidden'>
+    <section id="about" className='relative overflow-hidden p-4'>
     <div className='absolute -top-8 -right-12 opacity-50'>
     <img src={aboutus} alt="aboutus" className='w-40 md:52 xl:w-64'/>
 
     </div>
-    <div className='flex flex-col items-center gap-3 text-center mb-10 md:mb-20 '>
+    <div className='flex flex-col items-center gap-3 text-center mb-5 md:mb-10  '>
     <h2 className='title'>About Me</h2>
     <p className='max-w-2xl'> CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK.</p>
     </div>

@@ -57,10 +57,10 @@ useEffect(() => {
 
   return (
     <>
-      <header id="navbar" className="bg-green-950 fixed w-full top-0 left-0 z-50">
+      <header id="navbar" className="bg-[#eeeee4] fixed w-full top-0 left-0 z-50">
         <nav className="container flex items-center justify-between h-16 sm:h-20">
           <div className="font-Lobster sm:text-2xl">
-          <a href="#">IndorePlants</a></div>
+          <a href="#" className='text-[#063970]'>Akil's Potfolio</a></div>
           <div
             id="nav-menu"
             className={`absolute top-0 ${
@@ -69,23 +69,23 @@ useEffect(() => {
           >
             <ul className="flex flex-col items-center gap-8 lg:flex-row">
               <li>
-                <a href="#home" className="nav-link active" onClick={closeMenu}>
+                <a href="#home" className="nav-link active text-[#063970]" onClick={closeMenu}>
                   Home
                 </a>
               </li>
               <li>
-                <a href="#about" className="nav-link" onClick={closeMenu}>
+                <a href="#about" className="nav-link text-[#063970]" onClick={closeMenu}>
                   About
                 </a>
               </li>
               <li>
-                <a href="#popular" className="nav-link" onClick={closeMenu}>
-                  Popular
+                <a href="#popular" className="nav-link text-[#063970]" onClick={closeMenu}>
+                  Education
                 </a>
               </li>
               <li>
-                <a href="#reviewsection" className="nav-link" onClick={closeMenu}>
-                  Review
+                <a href="#reviewsection" className="nav-link text-[#063970]" onClick={closeMenu}>
+                  Projects
                 </a>
               </li>
             </ul>

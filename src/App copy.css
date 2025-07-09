@@ -9,7 +9,7 @@ html{
 }
 
 body{
-    @apply bg-green-950 text-white font-Jost tracking-wider ;
+    @apply bg-green-950 text-[#063970] font-Jost tracking-wider ;
 }
 
 section{

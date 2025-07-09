@@ -50,7 +50,7 @@ function ReviewSection() {
       </div>
 
       {/* Swiper Section */}
-      <div className="container py-12">
+      <div className="container py-12 ">
         <Swiper
           modules={[Pagination, Autoplay]}
           spaceBetween={30}

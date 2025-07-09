@@ -29,7 +29,7 @@ function AboutUs() {
 
 
                     </h3>
-                    <p className='text-slate-300 font-Lobster'>
+                    <p className='text-slate-300 font-Lobster text-lg'>
                    ⚡ I build responsive Single Page Applications (SPA) using React.js, ensuring smooth navigation and dynamic user experiences.<br/>
 
 ⚡ I create fast and responsive static websites with Next.js, optimized for performance and SEO.
@@ -57,7 +57,7 @@ function AboutUs() {
 
 
                     </h3>
-                    <p className='text-slate-300 font-Lobster'>
+                    <p className='text-slate-300 font-Lobster text-lg'>
                    ⚡ For styling and UI design, I efficiently use Tailwind CSS and Bootstrap to craft clean, modern, and mobile-friendly interfaces.       </p>
                 </div>
             </div>

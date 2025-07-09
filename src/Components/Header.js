@@ -59,7 +59,7 @@ useEffect(() => {
     <>
       <header id="navbar" className="bg-[#eeeee4] fixed w-full top-0 left-0 z-50">
         <nav className="container flex items-center justify-between h-16 sm:h-20">
-          <div className="font-Lobster sm:text-2xl">
+          <div className="font-Lobster sm:text-2xl p-2">
           <a href="#" className='text-[#063970]'>Akil's Potfolio</a></div>
           <div
             id="nav-menu"

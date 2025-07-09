@@ -76,7 +76,7 @@ function Footer() {
               rel="noopener noreferrer"
               className="flex items-center gap-2 hover:text-blue-700 transition"
             >
-              <TiSocialLinkedin size={22} className="text-blue-600" />
+              <TiSocialLinkedin size={22}  />
               LinkedIn
             </a>
 

@@ -23,8 +23,8 @@ function HomeSection() {
               {/* <span class="text-yellow-500">exploring </span> new <br />
               technologies. */}
             </h1>
-            <p className="text-slate-300 font-Lobster">
-              specializing in Web development using React JS and foundational knowledge of Node.js, Express, and MongoDB.
+            <p className="text-slate-300 font-Lobster text-lg">
+              Specializing in web development using React JS and foundational knowledge of Node.js, Express, and MongoDB.
               I'm passionate about building user-friendly applications and continuously exploring new technologies to enhance my skills.
             </p>
 
@@ -41,7 +41,7 @@ function HomeSection() {
               </a>
 
             </div>
-            <p className="text-xs font-Lobster text-state-300">
+            <p className="text-slate-300 font-Lobster text-lg">
               more than 1+ years of experience in web development.
             </p>
             {/*social media icons */}

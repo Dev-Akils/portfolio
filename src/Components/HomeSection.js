@@ -29,11 +29,11 @@ function HomeSection() {
             </p>
 
             <div className="flex flex-col gap-2 sm:flex-row md:gap-4 lg:pt-5 xs:pt-10 ">
-              <a href="https://aboutme-tan.vercel.app/"><button className="btn">
+              <a href="https://aboutme-yjrl.vercel.app/"><button className="btn">
                 <span>About Me</span>
                 <i class="ri-leaf-line"></i>
               </button></a>
-              <a href="/Software_Engineer.pdf" download>
+              <a href="/Software_Engineer_Akila S.pdf" download>
                 <button className="btn">
                   <span>Resume</span>
                   <i className="ri-leaf-line"></i>
@@ -42,7 +42,7 @@ function HomeSection() {
 
             </div>
             <p className="text-slate-300 font-Lobster text-lg">
-              more than 1+ years of experience in web development.
+              I have 2 years of experience in web development.
             </p>
             {/*social media icons */}
             <div className="flex items-center gap-5 text-lg  lg:pt-10 ">
